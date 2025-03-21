@@ -1,5 +1,6 @@
 import javafx.fxml.FXML;
 import javafx.scene.paint.Color;
+import javafx.event.ActionEvent;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import java.util.HashSet;
@@ -21,7 +22,7 @@ public class GridController {
     private final int OFFSET = 10;
 
     @FXML
-    void fillGrid() {
+    void fillGrid(ActionEvent event) {
         int fillSize = CANVAS_WIDTH_SIZE * CANVAS_HEIGHT_SIZE / (OFFSET * OFFSET * 10);
         gc.clearRect(0, 0, CANVAS_WIDTH_SIZE, CANVAS_HEIGHT_SIZE);
         drawMatrix();
