@@ -16,7 +16,7 @@ public class GridController {
 
     private static final int CANVAS_WIDTH_SIZE = 300;
 
-    private static final int CANVAS_HEIGHT_SIZE = 330;
+    private static final int CANVAS_HEIGHT_SIZE = 300;
 
     private final int OFFSET = 10;
 

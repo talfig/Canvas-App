@@ -8,7 +8,7 @@ public class Grid extends Application{
 
     private static final int GRID_CANVAS_WIDTH_SIZE = 300;
 
-    private static final int GRID_HEIGHT_SIZE = 300;
+    private static final int GRID_HEIGHT_SIZE = 330;
 
     public void start(Stage stage) throws Exception{
         Parent root = (Parent) FXMLLoader.load(getClass().getResource("Grid.fxml"));
