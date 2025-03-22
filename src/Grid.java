@@ -10,7 +10,6 @@ import javafx.stage.Stage;
  * with a specified size for the window using FXML for the layout.
  */
 public class Grid extends Application{
-
     private static final int GRID_CANVAS_WIDTH_SIZE = 300;
 
     private static final int GRID_HEIGHT_SIZE = 330;
